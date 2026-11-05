@@ -1,8 +1,11 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import './App.css'
+import imgCorrupted from './assets/corrupted-danimalcannon-zef.jpg'
+import imgCore from './assets/core-zef.jpg'
+import imgFinalBoss from './assets/finalboss-nitrofun.jpg'
 
 const musics = [
-  { title: 'Corrupted', author: 'Danimal Cannon & Zef', time: '6:16', img: '/src/assets/corrupted-danimalcannon-zef.jpg', src: '/music/corrupted-danimalcannon-zef.mp3' },
+  { title: 'Corrupted', author: 'Danimal Cannon & Zef', time: '6:16', img: imgCorrupted, src: '/music/corrupted-danimalcannon-zef.mp3' },
   { title: 'Chronos', author: 'Danimal Cannon & Zef', time: '4:29', img: '' },
   { title: 'Milky Ways', author: 'Bossfight', time: '3:07', img: '' },
   { title: 'Logic Gatekeeper', author: 'Danimal Cannon & Zef', time: '4:58', img: '' },
@@ -14,8 +17,8 @@ const musics = [
   { title: 'Cascade', author: 'Kubbi', time: '4:19', img: '' },
   { title: 'Barracuda', author: 'Noisestorm', time: '4:22', img: '' },
   { title: 'Dubwoofer Substep', author: 'Omnitica', time: '4:44', img: '' },
-  { title: 'Core', author: 'Zef', time: '4:34', img: '/src/assets/core-zef.jpg', src: '/music/core-zef.mp3' },
-  { title: 'Final Boss', author: 'Nitro Fun', time: '5:16', img: '/src/assets/finalboss-nitrofun.jpg', src: '/music/finalboss-nitrofun.mp3' }
+  { title: 'Core', author: 'Zef', time: '4:34', img: imgCore, src: '/music/core-zef.mp3' },
+  { title: 'Final Boss', author: 'Nitro Fun', time: '5:16', img: imgFinalBoss, src: '/music/finalboss-nitrofun.mp3' }
 ]
 
 // ===== Tela de aviso =====
